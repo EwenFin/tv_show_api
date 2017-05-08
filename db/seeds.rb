@@ -8,3 +8,18 @@
 
 Show.delete_all
 Show.create({title: "The Walking Dead", series:2, description:"Zombies everywhere", image:"placeholder.jpg", programmeID:"theWalkingDead"})
+Show.create({
+  title: "The Great British Bake Off",
+  series: 7,
+  description: "Master bakers Mary & Paul and the incomparable presenting duo of Mel & Sue are back for another interesting series about baking cakes.",
+  image: "placeholder1.jpg",
+  programmeID: "b013pqnm" 
+})
+Show.create({
+  title: "American Gods",
+  series: 1,
+  description: "I met Neil Gaiman at a party once.  Nice Man.",
+  image: "placeholder2.jpg",
+  programmeID: "b013pqnm" 
+
+  })
